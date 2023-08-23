@@ -1,0 +1,13 @@
+@import "../../../scss/foundation/variables";
+
+nav {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    gap: 9rem;
+    padding-right: 3rem;
+}

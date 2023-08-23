@@ -1,0 +1,17 @@
+@import "../../../scss/foundation/variables";
+
+li {
+    a {
+        font-family: $roboto;
+        font-size: $nav-link;
+        color: $black;
+        font-weight: $medium;
+        transition: all .1s ease-in;
+
+        &:hover {
+            font-weight: $bold;
+            // Might change effects later
+            // font-size: calc($nav-link + 0.1rem);
+        }
+    }
+}
