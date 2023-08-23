@@ -1,0 +1,17 @@
+@import "../../../scss/foundation/variables";
+
+button {
+    cursor: pointer;
+    padding: $btn-padding-top-bot $btn-padding-right-left;
+    background-color: $green;
+    color: $white;
+    font-family: $roboto;
+    font-weight: $medium;
+    border: none;
+    border-radius: $button-border-radius;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        box-shadow: 3px 10px 20px 0px rgba(27, 128, 54, 0.51);
+    }   
+}

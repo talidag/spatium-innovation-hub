@@ -1,5 +1,11 @@
+import Button from "./components/atoms/Button/Button";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Button text="dasdsa" />
+    </div>
+  );
 };
 
 export default App;
