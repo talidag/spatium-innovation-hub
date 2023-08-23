@@ -1,0 +1,34 @@
+// Imports
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Poppins:wght@400;500;600&display=swap');
+
+// Font families
+
+$ff: "Font";
+
+// Font sizes
+
+$fs-small: 0.75rem; // 12px
+$fs-big: 5.375rem; // 86px
+
+
+// Font weights
+
+// Delete not used ones
+
+$thin:100;
+$extraLight:200;
+$light:300;
+$regular:400;
+$medium:500;
+$semibold:600;
+$bold:700;
+$extrabold:800;
+$boldest:900;
+
+// To add line-height
+
+$lh-small: 18px;
+$lh-medium: 24px;
+$lh-big: 28px;
+$lh-gigant: 100px;
