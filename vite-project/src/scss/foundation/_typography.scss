@@ -1,16 +1,34 @@
 // Imports
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&family=Roboto:wght@400;500;700&display=swap');
 
 // Font families
 
-$ff: "Font";
+$red-hat: 'Red Hat Display';
+$roboto: 'Roboto';
 
 // Font sizes
 
-$fs-small: 0.75rem; // 12px
-$fs-big: 5.375rem; // 86px
+$hero-h: 4.8rem;
+$hero-p: 1.8rem;
+$nav-link : 1.8rem;
+$header-contact-p: 1.5rem;
 
+$section-h: 3.6rem;
+$section-p: 2.4rem;
+$section-medium: 1.8rem;
+$section-small: 1.5rem;
+
+$section-card-h: 1.8rem;
+$section-card-p: 1.4rem;
+
+$subscribe-h: 2.4rem;
+$subscribe-email: 1.8rem;
+
+$footer-h: 1.8rem;
+$footer-p: 1.4rem;
+
+$button: 1.8rem;
 
 // Font weights
 
@@ -28,7 +46,9 @@ $boldest:900;
 
 // To add line-height
 
-$lh-small: 18px;
-$lh-medium: 24px;
-$lh-big: 28px;
-$lh-gigant: 100px;
+$lh-big: 4.8rem;
+$lh-h: 4.2rem;
+$lh-p: 4rem;
+$lh-medium: 3rem;
+$lh-small: 2.4rem;
+
