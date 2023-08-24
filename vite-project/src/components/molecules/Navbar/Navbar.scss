@@ -4,6 +4,9 @@ nav {
     display: flex;
     gap: 8rem;
     align-items: center;
+    padding-left: $nav-padding-left;
+    padding-top: $nav-padding-top;
+    padding-right: $nav-padding-right;
 }
 
 .nav__links {

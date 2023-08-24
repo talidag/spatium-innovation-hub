@@ -14,7 +14,9 @@ const Navbar = () => {
 
   return (
     <nav>
-      <img src={logo} alt="Spatium Logo" />
+      <a href="">
+        <img src={logo} alt="Spatium Logo" />
+      </a>
       <div className="nav__links">
         {navLinks.map((link, index) => (
           <NavEl link={link} key={index} />
