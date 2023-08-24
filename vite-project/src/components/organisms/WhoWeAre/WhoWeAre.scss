@@ -1,0 +1,51 @@
+@import "../../../scss/foundation/variables";
+
+.whoWeAre {
+    display: flex;
+    gap: 9rem;
+    padding-top: $wha-padding-top;
+    padding-right: $wha-padding-right;
+    padding-bottom: $wha-padding-bottom;
+    padding-left: $wha-padding-left;
+
+    &__text {
+        font-family: $roboto;
+
+        & h1 {
+            font-size: $section-h;
+            padding-top: 2rem;
+            line-height: $lh-h;
+            padding-bottom: 1.5rem;
+        }
+
+        // Classname below because otherwise it was changing
+        // the Description component style (p)
+        
+        &_p {
+            color: $medium-grey;
+            font-size: $section-p;
+            line-height: $lh-p;
+        }
+    }
+}
+
+.whoWeAre__img {
+    position: relative;
+}
+
+.ellipse {
+    position: absolute;
+    top: 47rem;
+    left: 6rem;
+
+    &:hover {
+        filter: saturate(5);
+    }
+}
+
+.up__arrow {
+    position: absolute;
+    bottom: -3rem;
+    right: -63rem;
+    cursor: pointer;
+}

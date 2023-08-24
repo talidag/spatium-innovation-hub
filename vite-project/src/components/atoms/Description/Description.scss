@@ -1,0 +1,14 @@
+@import "../../../scss//foundation/variables";
+
+.description {
+    display: flex;
+    gap: 1.2rem;
+    font-family: $roboto;
+    font-size: $section-small;
+    color: $grey;
+    font-weight: $bold;
+
+    & p {
+        font-size: $section-small;
+    }
+}
