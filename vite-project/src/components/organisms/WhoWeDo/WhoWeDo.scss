@@ -6,9 +6,12 @@
     display: flex;
     gap: 7rem;
     padding: $wwd-padding-top $wwd-padding-right $wwd-padding-bottom $wwd-padding-left;
+    position: relative;
 
     &__left {
         font-family: $roboto;
+        text-align: left;
+        width: 50rem;
 
         & h1 {
             padding-top: 1rem;
@@ -31,11 +34,11 @@
     }
 
     &__right {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 3rem;
-        grid-row-gap: 3rem;
+        width: 160rem;
+        position: relative;
+        position: absolute;
+        left: 70rem;
+        top: 20rem;
     }
 }
 

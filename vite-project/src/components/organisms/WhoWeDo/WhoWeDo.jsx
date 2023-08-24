@@ -16,16 +16,16 @@ const WhoWeDo = () => {
       text: "Our Identity Management solution is the authentication process of determining whether a person is who he or she claims to be.",
     },
     {
-      title: "UI/UX Design",
-      text: "Our team of trusted Web Designers help businesses create effective online presence that support their growth.",
-    },
-    {
       title: "Software Development",
       text: "Our Team Design and Develop Web-based and mobile applications for different sectors of the economy.",
     },
     {
       title: "IT Consulting & Advisory Services",
       text: "We offer IT consultancy to companies in the area of Business Intelligence (BI) and Enterprise Resource Planning (ERP).",
+    },
+    {
+      title: "UI/UX Design",
+      text: "Our team of trusted Web Designers help businesses create effective online presence that support their growth.",
     },
   ];
 
@@ -40,7 +40,14 @@ const WhoWeDo = () => {
       <div className="whoWeDo__right">
         {whoWeDoCards.map((card, index) => {
           const { title, text } = card;
-          return <WhoWeDoCard title={title} text={text} key={index} />;
+          return (
+            <WhoWeDoCard
+              title={title}
+              text={text}
+              key={index}
+              className={`service-${index}`}
+            />
+          );
         })}
       </div>
     </section>

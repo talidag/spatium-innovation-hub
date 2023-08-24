@@ -9,6 +9,15 @@
     text-align: center;
     width: 27.5rem;
     height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: $light-grey;
+        cursor: pointer;
+    }
 
 
     & h3 {
@@ -19,4 +28,21 @@
     & p {
         font-size: $section-card-p;
     }
+}
+
+.service-1 {
+    position: absolute;
+    left: 30rem;
+    top: -10rem;
+}
+
+.service-2 {
+    position: absolute;
+    left: 30rem;
+    top: 20rem;
+}
+
+.service-3 {
+    position: absolute;
+    top: 30rem;
 }

@@ -1,5 +1,6 @@
 import "./Hero.scss";
 import Button from "../../atoms/Button/Button";
+import heroBottomBar from "../../../assets/hero-bottom-bar.svg";
 
 const Hero = () => {
   const heroHeading = "Find The Perfect Digital Solution for your Business";
@@ -14,6 +15,7 @@ const Hero = () => {
         </div>
         <Button text="Learn More" />
       </div>
+      <img src={heroBottomBar} alt="" className="hero__bar" />
     </section>
   );
 };

@@ -1,0 +1,30 @@
+@import "../../../scss/foundation/variables";
+
+.our__products {
+    background: linear-gradient(136deg, rgba(30, 165, 66, 0.92) 0%, #0E6706 79.01%, rgba(27, 128, 54, 0.90) 100%);
+    color: $white;
+    font-family: $roboto;
+    padding: $op-padding-top $op-padding-right $op-padding-bottom $op-padding-left;
+    position: relative;
+
+    &__title {
+        font-size: $section-h;
+        text-align: center;
+        padding-bottom: 4.5rem;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+.products__btn {
+    position: absolute;
+    bottom: 9rem;
+    right: 49.5rem;
+    background-color: $white;
+    color: $green;
+    border-radius: 1rem;
+}

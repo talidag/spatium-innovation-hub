@@ -1,0 +1,31 @@
+@import "../../../scss/foundation/variables";
+
+.product__card {
+    display: flex;
+    gap: 30rem;
+
+    &__title {
+        font-size: $section-h;
+        padding-bottom: 3.5rem;
+        padding-top: 5rem;
+    }
+
+    &__about {
+        font-size: $section-p;
+        padding-bottom: 4rem;
+        line-height: $lh-p;
+    }
+
+    &__description {
+        font-size: $section-medium;
+        color: $light-grey;
+        line-height: $lh-medium;
+        padding-bottom: 2rem;
+        
+    }
+}
+
+.product-1 {
+    flex-direction: row-reverse;
+    gap: 5rem;
+}

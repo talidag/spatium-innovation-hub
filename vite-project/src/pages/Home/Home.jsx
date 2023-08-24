@@ -4,6 +4,7 @@ import HeaderContact from "../../components/molecules/HeaderContact/HeaderContac
 import Hero from "../../components/organisms/Hero/Hero";
 import WhoWeAre from "../../components/organisms/WhoWeAre/WhoWeAre";
 import WhoWeDo from "../../components/organisms/WhoWeDo/WhoWeDo";
+import OurProducts from "../../components/organisms/OurProducts/OurProducts";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <WhoWeAre />
       <WhoWeDo />
+      <OurProducts />
     </div>
   );
 };
