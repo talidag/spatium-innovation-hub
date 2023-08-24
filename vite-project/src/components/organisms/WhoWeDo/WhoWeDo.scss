@@ -1,0 +1,44 @@
+@import "../../../scss/foundation/variables";
+
+// To Do: Arrange the cards as in Figma
+
+.whoWeDo {
+    display: flex;
+    gap: 7rem;
+    padding: $wwd-padding-top $wwd-padding-right $wwd-padding-bottom $wwd-padding-left;
+
+    &__left {
+        font-family: $roboto;
+
+        & h1 {
+            padding-top: 1rem;
+            font-size: $section-h;
+        }
+
+        &__text{
+            color: $medium-grey;
+            font-size: $section-p;
+            padding-top: 1.5rem;
+            line-height: $lh-p;
+        }
+
+        &__small {
+            padding-top: 3rem;
+            color: $small-grey;
+            line-height: $lh-medium;
+            font-size: $section-small;
+        }
+    }
+
+    &__right {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 3rem;
+        grid-row-gap: 3rem;
+    }
+}
+
+
+
+

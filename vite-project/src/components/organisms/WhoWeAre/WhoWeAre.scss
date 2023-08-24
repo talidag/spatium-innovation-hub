@@ -3,10 +3,9 @@
 .whoWeAre {
     display: flex;
     gap: 9rem;
-    padding-top: $wha-padding-top;
-    padding-right: $wha-padding-right;
-    padding-bottom: $wha-padding-bottom;
-    padding-left: $wha-padding-left;
+    padding-top: $wwa-padding-top;
+    padding-right: $wwa-padding-right;
+    padding-left: $wwa-padding-left;
 
     &__text {
         font-family: $roboto;

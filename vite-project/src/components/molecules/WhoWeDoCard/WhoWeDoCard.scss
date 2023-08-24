@@ -1,0 +1,22 @@
+@import "../../../scss/foundation/variables";
+
+.whoWeDo__card {
+    font-family: $roboto;
+    line-height: $lh-small;
+    padding: $wwd-card-padding;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 27.5rem;
+    height: 27rem;
+
+
+    & h3 {
+        font-size: $section-medium;
+        padding-bottom: 2.5rem;
+    }
+
+    & p {
+        font-size: $section-card-p;
+    }
+}
