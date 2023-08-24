@@ -1,0 +1,33 @@
+@import "../../../scss/foundation/variables";
+
+.our__leadership {
+    padding: $ol-padding-top $ol-padding-right $ol-padding-bottom $ol-padding-left;
+
+    &__wrapper {
+        text-align: center;
+        font-family: $roboto;
+    }
+
+    &__title {
+        font-size: $section-card-s;
+        padding-bottom: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
+
+    h2 {
+        font-size: $section-h;
+        letter-spacing: 0.15rem;
+        padding-bottom: 2.5rem;
+    }
+
+    &__text {
+        font-size: $section-medium;
+        letter-spacing: 0.08rem;
+        padding-bottom: 8.5rem;
+    }
+}
+
+.our__leaders {
+    display: flex;
+    gap: 4.5rem;
+}

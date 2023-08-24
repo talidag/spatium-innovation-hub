@@ -5,6 +5,7 @@ import Hero from "../../components/organisms/Hero/Hero";
 import WhoWeAre from "../../components/organisms/WhoWeAre/WhoWeAre";
 import WhoWeDo from "../../components/organisms/WhoWeDo/WhoWeDo";
 import OurProducts from "../../components/organisms/OurProducts/OurProducts";
+import OurLeadership from "../../components/organisms/OurLeadership/OurLeadership";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <WhoWeAre />
       <WhoWeDo />
       <OurProducts />
+      <OurLeadership />
     </div>
   );
 };
