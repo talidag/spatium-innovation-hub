@@ -1,0 +1,45 @@
+@import "../../../scss/foundation/variables";
+
+.newsletter {
+    background: linear-gradient(111deg, #52FA43 0%, rgba(27, 128, 54, 0.89) 100%);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding: $nl-padding;
+    position: absolute;
+    bottom: -1rem;
+    left: 14rem;
+
+    & img {
+        padding-right: 3rem;
+    }
+
+    & h1 {
+        font-family: $roboto;
+        font-size: $section-p;
+        color: $white;
+        padding-right: 4.5rem;
+    }
+
+    &__subscribe {
+        position: relative;
+    }
+
+    &__input {
+        padding: 2.2rem 30rem 2.2rem 4.5rem;
+        border-radius: 10rem;
+        background: #FFF;
+        border: none;
+
+        &:focus {
+            outline: none;
+        }
+
+    }
+
+    &__button {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.8rem;
+    }
+}

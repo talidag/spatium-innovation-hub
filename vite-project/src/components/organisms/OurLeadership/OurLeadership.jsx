@@ -4,6 +4,7 @@ import blessing from "../../../assets/blessing.png";
 import famodimu from "../../../assets/famodimu.png";
 import nanle from "../../../assets/nanle.png";
 import ikotun from "../../../assets/ikotun.png";
+import Newsletter from "../../molecules/Newsletter/Newsletter";
 
 const OurLeadership = () => {
   const ourLeadershipTitle = "PROFESSIONAL PEOPLE";
@@ -44,6 +45,7 @@ const OurLeadership = () => {
           <LeaderCard {...leader} key={index} />
         ))}
       </div>
+      <Newsletter />
     </section>
   );
 };
