@@ -1,0 +1,88 @@
+@import "../../../scss/foundation/variables";
+
+footer {
+    background: linear-gradient(136deg, #1B8036 0%, rgba(8, 63, 26, 0.92) 79.01%, rgba(8, 63, 26, 0.86) 100%);;
+    padding: $footer-padding;
+    font-family: $roboto;
+
+    & hr {
+        // Make the hr full width?
+        margin-left: -9rem;
+        margin-right:  -17rem; 
+    }
+
+}
+
+.footer {
+
+    &__wrapper {
+        display: flex;
+        gap: 4rem;
+    }
+    
+    &__aboutUs {
+
+        & h3 {
+            color: $white;
+            font-size: $footer-h;
+            padding-bottom: 3.5rem;
+        }
+        
+        &__logo {
+            background-color: $white;
+        }
+
+        & p {
+            color: $light-grey;
+            font-size: $footer-p;
+            padding-top: 2rem;
+        }
+    }
+
+    &__contactUs {
+
+        & h3 {
+            color: $white;
+            font-size: $footer-h;
+            padding-bottom: 3.5rem;
+        }
+
+        & span {
+            color: $light-green;
+        }
+
+        & p {
+            color: $light-grey;
+            font-size: $footer-p;
+            padding-bottom: 2rem;
+        }
+    }
+    
+    &__bottom {
+        font-family: $roboto;
+        font-size: $footer-h;
+        color: $light-grey;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+
+.footer__cards {
+    display: flex;
+}
+
+.aboutUs__socials {
+    display: flex;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+
+    & img {
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+} 

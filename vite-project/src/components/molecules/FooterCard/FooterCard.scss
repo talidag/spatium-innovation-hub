@@ -1,0 +1,23 @@
+@import "../../../scss/foundation/variables";
+
+.footer__card {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    
+    & h3 {
+        color: $white;
+        font-size: $footer-h;
+        padding-bottom: 2rem;
+    }
+
+    & p {
+        color: $light-grey;
+        font-size: $footer-p;
+        cursor: pointer;
+
+        &:hover {
+            color: $grey;
+        }
+    }
+}
