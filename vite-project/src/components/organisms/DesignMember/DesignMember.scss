@@ -1,0 +1,30 @@
+@import "../../../scss/foundation/variables";
+
+.design__member {
+    background: linear-gradient(180deg, #2C8945 0%, rgba(109, 214, 137, 0.69) 0.01%, #1B8036 99.48%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+    width: 28rem;
+    color: $white;
+    font-family: $roboto;
+
+    & img {
+        padding: 2.2rem 6.7rem;
+        
+    }
+
+    & h3 {
+        font-size: $section-medium;
+        padding-bottom: 1rem;
+    }
+
+    & p {
+        font-size: $section-card-s;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+}

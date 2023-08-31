@@ -11,14 +11,11 @@ import Footer from "../../components/organisms/Footer/Footer";
 const Home = () => {
   return (
     <div>
-      <HeaderContact />
-      <Navbar />
       <Hero />
       <WhoWeAre />
       <WhoWeDo />
       <OurProducts />
       <OurLeadership />
-      <Footer />
     </div>
   );
 };

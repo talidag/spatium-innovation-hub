@@ -1,0 +1,82 @@
+@import "../../scss/foundation/variables";
+
+.aboutUs {
+
+    &__title::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #3534346B;
+        z-index: 1;
+    }
+
+    &__title {
+        font-family: $red-hat;
+        color: $white;
+        font-size: $hero-h;
+        position: relative;
+
+        & h1 {
+            position: absolute;
+            top: 4.2rem;
+            left: 50rem;
+            z-index: 2;
+        }
+
+        & img {
+            display: block;
+        }
+    }
+
+    &__heading {
+        font-family: $red-hat;
+        font-size: $hero-h;
+        color: $black;
+        text-align: center;
+        padding-top: $aboutUs-p-top;
+        padding-bottom: $aboutUs-p-bot;
+    }
+
+    &__team {
+        display: flex;
+        gap: 6rem;
+    }
+
+    &__member {
+        padding-left: 10rem;
+        padding-top: 3rem;
+    }
+
+    &__description {
+        font-family: $roboto;
+        padding-bottom: 7rem;
+
+        & h4 {
+            font-size: $section-h;
+            padding: 2rem 0;
+            padding-right: 20rem;
+        }
+
+        &__text {
+            font-size: $section-p;
+            color: $medium-grey;
+            line-height: $lh-p;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        & a {
+            display: block;
+            color: $medium-grey;
+            font-size: $section-medium;
+            text-decoration: underline;
+
+            &:hover {
+                font-weight: $bold;
+            }
+        }
+    }
+}

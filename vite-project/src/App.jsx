@@ -4,17 +4,25 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import BlogList from "./pages/BlogList/BlogList";
 import Blog from "./pages/Blog/Blog";
 import Button from "./components/atoms/Button/Button";
+import HeaderContact from "./components/molecules/HeaderContact/HeaderContact";
+import Navbar from "./components/molecules/Navbar/Navbar";
+import Footer from "./components/organisms/Footer/Footer";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about-us" element={<AboutUs />}></Route>
-        <Route path="/blog/" element={<BlogList />}></Route>
-        <Route path="/blog/:id" element={<Blog />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <HeaderContact />
+      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/about-us" element={<AboutUs />}></Route>
+          <Route path="/blog/" element={<BlogList />}></Route>
+          <Route path="/blog/:id" element={<Blog />}></Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </>
   );
 };
 
