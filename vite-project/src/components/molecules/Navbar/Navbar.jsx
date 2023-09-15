@@ -10,6 +10,7 @@ const Navbar = () => {
     "Portofolio",
     "Management Profile",
     "Careers",
+    "Blog",
   ];
 
   return (
