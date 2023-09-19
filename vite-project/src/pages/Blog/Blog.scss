@@ -1,15 +1,95 @@
-.blog__info {
+@import "../../scss/foundation/variables";
+
+.blog {
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    max-width: 87rem;
+    margin-bottom: 7rem;
+    font-family: $roboto;
     display: flex;
-    gap: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
 
-    // & p {
-    //     padding-left: 0.5rem;
-    // }
-
-    &__container {
-        display: flex;
-        gap: 0.5rem;
+    &__type {
+        position: absolute;
+        top: 3.5rem;
+        left: 4.5rem;
+        background-color: #1B8036;
+        padding: 0.5rem 1.3rem;
+        color: $white;
+        font-weight: 500;
+        letter-spacing: 0.49px;
     }
+
+
+    &__title::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(53, 52, 52, 0.42);
+        z-index: 1;
+    }
+
+    &__title {
+        position: relative;
+        font-family: $red-hat;
+        color: $white;
+        font-size: $hero-h;
+        position: relative;
+    
+    
+        & h1 {
+            position: absolute;
+            top: 3rem;
+            left: 60rem;
+            z-index: 2;
+        }
+
+        & img {
+            display: block;
+            max-width: 1351px;
+
+        }
+    }
+
+    &__info {
+        display: flex;
+        gap: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: $section-card-p;
+    
+        &__container {
+            display: flex;
+            gap: 0.5rem;
+
+        }
+    }
+
+    &__text {
+        padding-left: 2rem;
+        padding-bottom: 5rem;
+        
+        & h1 {
+            font-size: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        & p {
+            font-size: $section-card-s;
+            color: #3D3D3D;
+            line-height: 3rem;
+        }
+   
+    }
+}
+
+.blogs__container {
+    padding-top: 7rem;
+    padding-left: 9rem;
 }
